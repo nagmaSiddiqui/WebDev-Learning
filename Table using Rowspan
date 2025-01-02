@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+          <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +60,8 @@
                 <td>1</td>
             </tr>
             <tr>
-                <td>Mangal bazar</td>
+                <td>main market</td>
+                <td>pehalwan chouk</td>
                 <td>400</td>
                 <td>280</td>
                 <td>9</td>
@@ -67,12 +69,14 @@
             <tr>
                 <td rowspan="2">Banaras</td>
                 <td>durgakund</td>
+                <td>gali no.10</td>
                 <td>500</td>
                 <td>600</td>
                 <td>4</td>
             </tr>
             <tr>
                 <td>assi ghat</td>
+                <td>gali no 4</td>
                 <td>300</td>
                 <td>900</td>
                 <td>3</td>
