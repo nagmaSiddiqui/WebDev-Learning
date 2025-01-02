@@ -3,18 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f0;
+        }
+
+        .form-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h1 {
+            color: #ff69b4;
+        }
+
+        .form-container label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 1em;
+            color: #ff1493;
+        }
+
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffb6c1;
+            border-radius: 4px;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #ff69b4;
+            color: white;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #ff1493;
+        }
+    </style>
 </head>
 <body>
-    <form >
-    <label for="email">Enter email id:</label>
-   <input type="text" id="email">
-   
-<br/>
-<br/>
-   <label for="password">Enter password</label>
-   <input type="text" id="password">
-   
-    </form>
+    <div class="form-container">
+        <h1>Input Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" required>
+
+            <label for="mailid">Email ID:</label>
+            <input type="email" id="mailid" name="mailid" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
