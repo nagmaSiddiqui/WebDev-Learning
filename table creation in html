@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1"> 
+        <thead>
+            <th>id</th>
+            <th>name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>50</td>
+                <td>Aahan</td>
+                <td>m</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>hina</td>
+                <td>f</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>Ram</td>
+                <td>m</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>Rani</td>
+                <td>f</td>
+                <td>21</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+</body>
+</html>
