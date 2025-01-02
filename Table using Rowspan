@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1"> 
+        <thead>
+            <th>Country</th>
+            <th>state</th>
+            <th>city</th>
+            <th>street</th>
+            <th>male</th>
+            <th>female</th>
+            <th>others</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="8"></td>
+                <td rowspan="4">kerala</td>
+                <td rowspan="2">Trivantampuram</td>
+                <td>new corner</td>
+                <td>208</td>
+                <td>500</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>main bazar</td>
+                <td>119</td>
+                <td>600</td>
+                <td>5</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Pune</td>
+                <td> street no.3</td>
+                <td>205</td>
+                <td>800</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                
+                    <td>street no.9</td>
+                    <td>500</td>
+                    <td>200</td>
+                    <td>2</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Uttar Pradesh</td>
+                <td rowspan="2">Meerut</td>
+                <td>bus adda</td>
+                <td>700</td>
+                <td>860</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Mangal bazar</td>
+                <td>400</td>
+                <td>280</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Banaras</td>
+                <td>durgakund</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>assi ghat</td>
+                <td>300</td>
+                <td>900</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Uttarkhand</td>
+                <td rowspan="2">dehradun</td>
+                <td>turnerroad</td>
+                <td>600</td>
+                <td>1200</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Gupta colony</td>
+                <td>1050</td>
+                <td>1100</td>
+                <td>9</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+</body>
+</html>
